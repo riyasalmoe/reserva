@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<rooms>
+
+   <room>
+      <uid>Innovationlab@rta.ae</uid>
+      <name>Innovation Lab</name>
+	  <floor>11</floor>
+      <description>Innovation Lab</description>
+
+   </room>
+
+   <room>
+      <uid>aljaddaf@rta.ae</uid>
+      <name>Al Jaddaf</name>
+      <floor>11</floor>
+	  <description>Al Jaddaf</description>
+
+   </room>
+
+   <room>
+      <uid>ummsuqeim@rta.ae</uid>
+      <name>Umm Suqeim</name>
+	  <floor>11</floor>
+      <description>Umm Suqeim</description>
+
+   </room>
+
+   <room>
+      <uid>alkhawaneej@rta.ae</uid>
+      <name>Al Khawaneej</name>
+	  <floor>11</floor>
+      <description>Al Khawaneej</description>
+
+   </room>
+
+   <room>
+      <uid>nadalsheba@rta.ae</uid>
+      <name>Nad Al Shiba</name>
+	  <floor>11</floor>
+      <description>Nad Al Shiba</description>
+
+   </room>
+
+   <room>
+      <uid>almarmoom@rta.ae</uid>
+      <name>Al Marmoum</name>
+	  <floor>11</floor>
+      <description>Al Marmoum</description>
+
+   </room>
+
+   <room>
+      <uid>alawir@rta.ae</uid>
+      <name>Al Awir</name>
+	  <floor>11</floor>
+      <description>Al Awir</description>
+
+   </room>
+
+   <room>
+      <uid>zaabeel@rta.ae</uid>
+      <name>Za'abeel</name>
+	  <floor>11</floor>
+      <description>Za'abeel</description>
+
+   </room>
+
+   <room>
+      <uid>albarsha@rta.ae</uid>
+      <name>Al Barsha</name>
+	  <floor>15</floor>
+      <description>Al Barsha</description>
+
+   </room>
+
+   <room>
+      <uid>alrashidiya@rta.ae</uid>
+      <name>Al Rashidiya</name>
+	  <floor>15</floor>
+      <description>Al Rashidiya</description>
+
+   </room>
+
+   <room>
+      <uid>alsufouh@rta.ae</uid>
+      <name>Al Soufouh</name>
+	  <floor>15</floor>
+      <description>Al Soufouh</description>
+
+   </room>
+
+   <room>
+      <uid>abuhail@rta.ae</uid>
+      <name>Abu Hail</name>
+	  <floor>15</floor>
+      <description>Abu Hail</description>
+
+   </room>
+
+   <room>
+      <uid>jumaira@rta.ae</uid>
+      <name>Jumeirah</name>
+	  <floor>15</floor>
+      <description>Jumeirah</description>
+
+   </room>
+
+   <room>
+      <uid>hatta@rta.ae</uid>
+      <name>Hatta</name>
+	  <floor>15</floor>
+      <description>Hatta</description>
+
+   </room>
+
+   <room>
+      <uid>mirdif@rta.ae</uid>
+      <name>Mirdif</name>
+	  <floor>15</floor>
+      <description>Mirdif</description>
+
+   </room>
+</rooms>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.reserva.co.uk/2016/XMLSchema" xmlns="http://www.reserva.co.uk/2016/XMLSchema events.xsd">
+  <xs:element name="events">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="event" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="uid" type="xs:string" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Unique identifer for the event. In the case of recurring events, it must uniquely identify the individual occurrence.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="subject" type="xs:string" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Display name of the event</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="start_time" minOccurs="1" maxOccurs="1" >
+                <xs:annotation>
+                  <xs:documentation>Start date/time. ISO 8601 formatted, preferably UTC</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                  <xs:restriction base="xs:dateTime">
+                    <xs:pattern value="\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d([zZ]|[+\-]\d\d:\d\d)"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="end_time" minOccurs="1" maxOccurs="1" >
+                <xs:annotation>
+                  <xs:documentation>End date/time. ISO 8601 formatted, preferably UTC</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                  <xs:restriction base="xs:dateTime">
+                    <xs:pattern value="\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d([zZ]|[+\-]\d\d:\d\d)"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="location" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Location name of the event (optional)</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Description for the event (optional)</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="organiser" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Display name of the organiser (optional)</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="organiser_email" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Email address of the organiser (optional)</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="all_day" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Flag indicating an all-day event (optional)</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="private" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Flag indicating the event is private (optional)</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="confirmed" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Flag indicating the event has been confirmed (optional)</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="cancelled" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Flag indicating the event has been cancelled</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="meeting_status" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>A field indicating the status of the meeting, used for filtering. (optional)
+                  Values of Scheduled, Cancelled or Confirmed will be processed. All other values will be ignored</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+<event>
+<recordid>A100001</recordid>
+<uid>A100001</uid>
+<id>Umm Suqeim</id>
+<subject>Umm Suqeim Training 1</subject>
+<start_time>2019-01-31T18:00+4</start_time>
+<end_time>2019-01-31T18:05+4</end_time>
+<location>Umm Suqeim</location>
+<room>Umm Suqeim</room>
+<description /><organiser />
+<organiser_email/>
+<all_day>false</all_day>
+<private>false</private>
+<confirmed>true</confirmed>
+<cancelled>false</cancelled>
+<meeting_status>Scheduled</meeting_status>
+</event>
+<event>
+<recordid>A100002</recordid>
+<uid>A100002</uid>
+<id>Umm Suqeim</id>
+<subject>Umm Suqeim Training 2</subject>
+<start_time>2019-01-31T18:06+4</start_time>
+<end_time>2019-01-31T18:11+4</end_time>
+<location>Umm Suqeim</location>
+<room>Umm Suqeim</room>
+<description /><organiser />
+<organiser_email/>
+<all_day>false</all_day>
+<private>false</private>
+<confirmed>true</confirmed>
+<cancelled>false</cancelled>
+<meeting_status>Scheduled</meeting_status>
+</event>
+<event>
+<recordid>A100003</recordid>
+<uid>A100003</uid>
+<id>Umm Suqeim</id>
+<subject>Umm Suqeim Training 3</subject>
+<start_time>2019-01-31T18:12+4</start_time>
+<end_time>2019-01-31T18:17+4</end_time>
+<location>Umm Suqeim</location>
+<room>Umm Suqeim</room>
+<description /><organiser />
+<organiser_email/>
+<all_day>false</all_day>
+<private>false</private>
+<confirmed>true</confirmed>
+<cancelled>false</cancelled>
+<meeting_status>Scheduled</meeting_status>
+</event>
+<event>
+<recordid>A100004</recordid>
+<uid>A100004</uid>
+<id>Umm Suqeim</id>
+<subject>Umm Suqeim Training 4</subject>
+<start_time>2019-01-31T18:18+4</start_time>
+<end_time>2019-01-31T18:23+4</end_time>
+<location>Umm Suqeim</location>
+<room>Umm Suqeim</room>
+<description /><organiser />
+<organiser_email/>
+<all_day>false</all_day>
+<private>false</private>
+<confirmed>true</confirmed>
+<cancelled>false</cancelled>
+<meeting_status>Scheduled</meeting_status>
+</event>
+<event>
+<recordid>A100005</recordid>
+<uid>A100005</uid>
+<id>Umm Suqeim</id>
+<subject>Umm Suqeim Training 5</subject>
+<start_time>2019-01-31T18:24+4</start_time>
+<end_time>2019-01-31T18:29+4</end_time>
+<location>Umm Suqeim</location>
+<room>Umm Suqeim</room>
+<description /><organiser />
+<organiser_email/>
+<all_day>false</all_day>
+<private>false</private>
+<confirmed>true</confirmed>
+<cancelled>false</cancelled>
+<meeting_status>Scheduled</meeting_status>
+</event>
+</events>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Rooms>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>Innovation-Lab</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Innovation Lab</Name>
+    </CompareRoomNames>
+  
+</Room>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>Al Jaddaf</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Al Jaddaf</Name>
+    </CompareRoomNames>
+  
+</Room>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>UMM SUQAIM 11th Floor</Name>
+      <Name>Umm Suqeim Room</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Umm Suqeim</Name>
+    </CompareRoomNames>
+  
+</Room>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>BLOCK (A) 9th FLOOR - Al Kawaneej Room</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Al Khawaneej</Name>
+    </CompareRoomNames>
+  
+</Room>
+  
+<Room>
+    <CSVRoomNames>
+      <Name>Nad Al Sheba Room</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Nad Al Shiba</Name>
+    </CompareRoomNames>
+ 
+ </Room>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>BLOCK (A) 9th FLOOR - Al Marmoom Room</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Al Marmoum</Name>
+    </CompareRoomNames>
+  
+</Room>
+  
+<Room>
+    <CSVRoomNames>
+      <Name>BLOCK (A) 9th FLOOR - Al Awir Room</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Al Awir</Name>
+    </CompareRoomNames>
+ 
+ </Room>
+  
+<Room>
+    <CSVRoomNames>
+      <Name>Za'abeel</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Za'abeel</Name>
+    </CompareRoomNames>
+  
+</Room>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>AL BARSHA 15th Floor</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Al Barsha</Name>
+    </CompareRoomNames>
+ 
+ </Room>
+  
+<Room>
+    <CSVRoomNames>
+      <Name>AL RASHIDIYA 15th Floor</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Al Rashidiya</Name>
+    </CompareRoomNames>
+ 
+ </Room>
+  
+<Room>
+    <CSVRoomNames>
+      <Name>AL SOFOUH 15th Floor</Name>
+      <Name>BLOCK (A) 9th FLOOR - Al Sufooh Room</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Al Soufouh</Name>
+    </CompareRoomNames>
+ 
+ </Room>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>Abu hail</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Abu Hail</Name>
+    </CompareRoomNames>
+ 
+ </Room>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>JUMEIRAH 15th Floor</Name>
+      <Name>Jumeirah Room</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Jumeirah</Name>
+    </CompareRoomNames>
+  
+</Room>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>HATTA 15th Floor</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Hatta</Name>
+    </CompareRoomNames>
+ 
+ </Room>
+ 
+ <Room>
+    <CSVRoomNames>
+      <Name>MIRDIF 15th Floor</Name>
+    </CSVRoomNames>
+    <CompareRoomNames>
+      <Name>Mirdif</Name>
+    </CompareRoomNames>
+  
+</Room>
+
+</Rooms>

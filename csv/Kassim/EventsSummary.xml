@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events xmlns="http://www.reserva.co.uk/2016/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.reserva.co.uk/2016/XMLSchema events.xsd">
+<event>
+<recordid>A100111</recordid>
+<uid>A100111</uid>
+<id>za'abeel</id>
+<name>za'abeel</name>
+<subject>Test Meeting for Za'abeel Only</subject>
+<start_time>2019-01-31T18:00+4</start_time>
+<end_time>2019-01-31T18:05+4</end_time>
+<location>zaabeel@rta.ae</location>
+<room>zaabeel@rta.ae</room>
+<description /><organiser />
+<organiser_email/>
+<all_day>false</all_day>
+<private>false</private>
+<confirmed>true</confirmed>
+<cancelled>false</cancelled>
+<meeting_status>Scheduled</meeting_status>
+</event>
+</events>

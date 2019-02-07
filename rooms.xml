@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rooms>
+    <room>
+        <uid>5c5974a5c8b61</uid>
+        <name>Room Name 1</name>
+        <description>Description here...</description>
+    </room>
+    <room>
+        <uid>5c5974a5c8b72</uid>
+        <name>Room Name 2</name>
+        <description>Description here...</description>
+    </room>
+    <room>
+        <uid>5c5974a5c8b7e</uid>
+        <name>Room Name 3</name>
+        <description>Description here...</description>
+    </room>
+    <room>
+        <uid>5c5974a5c8b8a</uid>
+        <name>Room Name 4</name>
+        <description>Description here...</description>
+    </room>
+    <room>
+        <uid>5c5974a5c8b95</uid>
+        <name>Room Name 5</name>
+        <description>Description here...</description>
+    </room>
+</rooms>

@@ -1,0 +1,72 @@
+﻿<div layout="column" ng-hide="false" style="padding:20px;" ng-cloak>
+    <md-toolbar layout="row" style="background-color:#ffffff;border-radius: 1px;min-height:50px;height:120px;margin-bottom:10px;">
+        <div layout="column" layout-align="start center" flex="10">
+            <div flex="100" style="margin:60px 20px 30px" layout="row" layout-align="center center">
+                <span style="text-align:center;color:black;font-size:100px;">{{currentDateTime|date:'HH:mm'}}</span>
+            </div>
+            <div flex="100" style="margin:35px" layout="row" layout-align="center center">
+                <span style="text-align:center;color:black;font-size:40px;">{{currentDateTime|date:'EEE dd MMM'}}</span>
+            </div>
+        </div>
+        <div layout="column" layout-align="center center" flex="70">
+            <!--<span style="text-align:center;color:black">Upcoming Schedules</span>-->
+        </div>
+        <div layout="column" layout-align="center center" flex="20">
+            <img src="img/RTA_dubai.png" style="width:500px;"/>
+        </div>
+    </md-toolbar>
+    <div layout="row" ng-hide="!ngHideList" layout-margin>
+        <div flex="100" layout="row" layout-align="start center">
+            <span>No more appointments today</span>
+        </div>
+    </div>
+
+    <div layout="column" ng-click="toggleSearch=false" style="background-color:none;">
+
+            <div layout="row" flex="100" layout-margin>
+                <!-- <scrollable-table flex="100" watch="content" ng-style="{height: content.length > 10 ? 450 : 38 + content.length * 10}">-->
+                <table flex="100" style="background-color:none;margin-top:60px;font-size:55px" cellpadding="15"  ng-hide="ngHideList">
+                    <thead >
+                        <tr style="border:none;">
+                            <th style="text-align:center;border-bottom:solid 1px lightgray;border-top:solid 1px lightgray;padding:35px;width:15%;">
+                                Time
+                            </th>
+                            <th style="text-align:left;border-bottom:solid 1px lightgray;border-top:solid 1px lightgray;padding:35px;width:60%;">
+                                Meeting Title
+                            </th>
+                            <th style="text-align:left;border-bottom:solid 1px lightgray;border-top:solid 1px lightgray;padding:35px;width:25%">
+                                Room
+                            </th>
+                            <!--<th style="text-align:left;border-bottom:solid 1px lightgray;padding:10px;">
+                                Organizer
+                            </th>-->
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="c in content" ng-class-odd="'odd'" ng-class-even="'even'"  class="md-table-content-row md-padding-content"  style="border:none;">
+                            <td style="text-align:center;border-bottom:solid 1px lightgray;padding:45px 35px ;font-size:60px">
+                                {{c.Time}}
+                            </td>
+                            <td style="text-align:left;border-bottom:solid 1px lightgray;padding:45px 35px;line-height:33px;font-size:60px">
+                                {{c.MeetingTitle}}
+                            </td>
+                            <td style="text-align:left;border-bottom:solid 1px lightgray;padding:45px 35px;font-size:60px">
+                                {{c.Room}}
+                            </td>
+                            <!--<td style="text-align:left;border-bottom:solid 1px lightgray;padding:10px;">
+                                {{c.Organizer}}
+                            </td>-->
+
+                        </tr>
+                    </tbody>
+                </table>
+                <!--</scrollable-table>-->
+            </div>
+
+            <app-Pagination layout="row" layout-align="end center" style="display:none;"></app-Pagination>
+
+
+    </div>
+</div>
+<!-- md-table jade template-->

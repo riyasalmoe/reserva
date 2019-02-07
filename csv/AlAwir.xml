@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+<event>
+<uid>5c5a85b842b2a</uid>
+<Subject>"Advanced Road Safety Auditing"</Subject>
+<Start_Time>2018-09-30T08:09+4</Start_Time>
+<End_Time>2018-09-30T14:09+4</End_Time>
+</event>
+<event>
+<uid>5c5a85b842bd2</uid>
+<Subject>"Advanced Road Safety Auditing"</Subject>
+<Start_Time>2018-10-01T08:10+4</Start_Time>
+<End_Time>2018-10-01T14:10+4</End_Time>
+</event>
+<event>
+<uid>5c5a85b842c2d</uid>
+<Subject>"Advanced Road Safety Auditing"</Subject>
+<Start_Time>2018-10-02T08:10+4</Start_Time>
+<End_Time>2018-10-02T14:10+4</End_Time>
+</event>
+<event>
+<uid>5c5a85b842c7d</uid>
+<Subject>"Design Thinking"</Subject>
+<Start_Time>2018-09-19T08:09+4</Start_Time>
+<End_Time>2018-09-19T14:09+4</End_Time>
+</event>
+<event>
+<uid>5c5a85b842cae</uid>
+<Subject>"Design Thinking"</Subject>
+<Start_Time>2018-09-20T08:09+4</Start_Time>
+<End_Time>2018-09-20T14:09+4</End_Time>
+</event>
+</events>

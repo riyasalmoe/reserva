@@ -1,0 +1,12 @@
+Sample Rooms XML. with floor tag.
+
+Summary Screen at Floor 15
+
+http://localhost/ReservaIntegration/schedule.html#/upcomingschedule?floorname=floor15
+
+
+Summary Screen at Floor 11
+
+http://localhost/ReservaIntegration/schedule.html#/upcomingschedule?floorname=floor11
+
+update files in respective folders.

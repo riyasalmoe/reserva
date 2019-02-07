@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <event>
+        <uid>5c597114b8e4e</uid>
+        <roomname>Za'abeel</roomname>
+        <Start_Time>2018-09-30T08:09+4</Start_Time>
+        <End_Time>2018-09-30T14:09+4</End_Time>
+    </event>
+    <event>
+        <uid>5c597114b8eae</uid>
+        <roomname>Al Awir</roomname>
+        <Start_Time>2018-10-01T08:10+4</Start_Time>
+        <End_Time>2018-10-01T14:10+4</End_Time>
+    </event>
+    <event>
+        <uid>5c597114b8edf</uid>
+        <roomname>Al Marmoum</roomname>
+        <Start_Time>2018-10-02T08:10+4</Start_Time>
+        <End_Time>2018-10-02T14:10+4</End_Time>
+    </event>
+    <event>
+        <uid>5c597114b8f0d</uid>
+        <roomname>Al Jaddaf</roomname>
+        <Start_Time>2018-09-19T08:09+4</Start_Time>
+        <End_Time>2018-09-19T14:09+4</End_Time>
+    </event>
+    <event>
+        <uid>5c597114b8f3b</uid>
+        <roomname>Al Khawaneej</roomname>
+        <Start_Time>2018-09-20T08:09+4</Start_Time>
+        <End_Time>2018-09-20T14:09+4</End_Time>
+    </event>
+</events>

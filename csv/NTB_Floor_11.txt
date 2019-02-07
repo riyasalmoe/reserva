@@ -1,0 +1,26 @@
+Za'abeel Connection
+{"type":"keyvalue","version":"1.3.4","data":"{\"web_server\":\"http://10.121.13.216:8443\",\"username\":\"almoe\",\"password\":\"9999\",\"connection_id\":\"98a95831-b4dc-481a-8250-5a7bc0b02577\"}"}
+
+Al Awir
+{"type":"keyvalue","version":"1.3.4","data":"{\"web_server\":\"http://10.121.13.216:8443\",\"username\":\"almoe\",\"password\":\"9999\",\"connection_id\":\"f9b24bd7-db7b-4751-b737-b9835939e3e0\"}"}
+
+Al Marmoum
+{"type":"keyvalue","version":"1.3.4","data":"{\"web_server\":\"http://10.121.13.216:8443\",\"username\":\"almoe\",\"password\":\"9999\",\"connection_id\":\"09b4fc22-3495-4215-a05d-0fe8ba4902dd\"}"}
+
+
+Al Jaddaf
+{"type":"keyvalue","version":"1.3.4","data":"{\"web_server\":\"http://10.121.13.216:8443\",\"username\":\"almoe\",\"password\":\"9999\",\"connection_id\":\"75e5f7f7-b2f5-4530-b544-7c989c96bea9\"}"}
+
+Nad Al Shiba
+{"type":"keyvalue","version":"1.3.4","data":"{\"web_server\":\"http://10.121.13.216:8443\",\"username\":\"almoe\",\"password\":\"9999\",\"connection_id\":\"2687888c-c578-4ea7-bf94-3b894e651506\"}"}
+
+
+Al Khawaneej
+{"type":"keyvalue","version":"1.3.4","data":"{\"web_server\":\"http://10.121.13.216:8443\",\"username\":\"almoe\",\"password\":\"9999\",\"connection_id\":\"4de53d27-68c7-483a-897f-a9dfed5ce94f\"}"}
+
+Umm Suqeim
+{"type":"keyvalue","version":"1.3.4","data":"{\"web_server\":\"http://10.121.13.216:8443\",\"username\":\"almoe\",\"password\":\"9999\",\"connection_id\":\"4e79fa94-21f0-4944-a891-b704585f130c\"}"}
+
+Connection 11 Floor
+{"type":"keyvalue","version":"1.3.4","data":"{\"web_server\":\"http://10.121.13.216:8443\",\"username\":\"almoe\",\"password\":\"9999\",\"connection_id\":\"f21bea09-afe8-4957-a71a-cf6ca2e17746\"}"}
+
