@@ -21,16 +21,25 @@
     <script src="./node_modules/popper.js"></script>
     <script src="./node_modules/moment/moment.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <title>Meeting Room Summary</title>
+    <title>All Day Meetings</title>
 </head>
 <body class="dimension">
 <div class="row">
     <div class="col-lg-4">
-        <div class="date" id='date-part'></div>
-        <br>
-        <div class="time" id='time-part'></div>
+        <table>
+            <tr>
+                <td style="height:10px;">
+                    <div class="time" id='time-part'></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center"><div class="date" id='date-part'></div></td>
+            </tr>
+        </table>
     </div>
-    <div class="col-lg-4"></div>
+    <div class="col-lg-4 text-heading">
+        <h1>ALL DAY MEETINGS</h1>
+    </div>
     <div class="col-lg-4">
         <img src="./img/RTA-Logo.png" class="logo" alt="">
     </div>
@@ -53,7 +62,7 @@
                     if(count($rooms)>0){
                         $arrlength = count($rooms);
                         for($x = 0; $x < $arrlength; $x++) {
-                            xmlreader_getMeetings("./xml/$rooms[$x].xml");
+                            xmlreader_getAllMeetings("./xml/$rooms[$x].xml");
                         }
                     }
                 ?>
@@ -73,8 +82,8 @@
         var momentNow = moment();
         $('#date-part').html(momentNow.format('dddd').substring(0,1).toUpperCase() +
                              momentNow.format('dddd').substring(1,3) + ', '
-                             + momentNow.format('MMM DD YYYY'));
-        $('#time-part').html(momentNow.format('hh:mm:ss A'));
+                             + momentNow.format('MMM DD'));
+        $('#time-part').html(momentNow.format('H:mm'));
     }, 100);  
 
 //pagination process
